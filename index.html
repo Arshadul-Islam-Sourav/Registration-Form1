@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+    <title>Student Registration Form</title>
+</head>
+
+<body style="background-color: #f0f8ff">
+    <nav class="section-container menu" style="padding-top: 0">
+        <span>
+            <img src="https://th.bing.com/th?id=OIP.5buhgr4c1tseTUXQokv4ZwHaFj&w=288&h=216&c=8&rs=1&qlt=90&o=6&dpr=1.3&pid=3.1&rm=2" alt="icare" width="150px" height="150px">
+            <img src="https://th.bing.com/th?q=Interactive+Website+Meaning&w=120&h=120&c=1&rs=1&qlt=90&cb=1&dpr=1.3&pid=InlineBlock&mkt=en-WW&cc=BD&setlang=en&adlt=moderate&t=1&mw=247" alt="dc" height="150px" width="150px">
+        </span>
+        <h5>FUTURE IS HERE</h5>
+
+
+        <div>
+            <ul>
+                <li><a href="#" class="active1">Home</a></li>
+                <li><a href="#">Course Module-2020</a></li>
+                <li><a href="#">Class Schedule </a></li>
+                <li><a href="#">Success Story</a></li>
+                <li><a href="#">Attendance</a></li>
+                <li><a href="#">FAQ</a></li>
+                <li><a href="#">Login</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section class="section-container" style="padding-bottom: 0px;">
+        <h1>Student Registration Form</h1>
+    </section>
+    <hr>
+    <section class="section-container" style="padding-bottom: 0px;">
+        <h3>Please enter relevent information</h3>
+    </section>
+    <section class="section-container form-container" style="padding-top: 10px  200px 10px 200px ;">
+        <form style="width: 50%;">
+            <small>Mendatory Field*</small>
+            <div class="form-group">
+                <label for="district">District*</label><br>
+                <select name="" id="district" required>
+                <option value="Select" selected disabled>--Select One--</option>
+                <option value="Dhaka">Dhaka</option>
+                <option value="Chittagong">Chittagong</option>
+                <option value="Comilla">Comilla</option>
+                <option value="Rajshahi">Rajshahi</option>
+                <option value="Jessor">Jessor</option>
+                <option value="Khulna">Khulna</option>
+                <option value="Barisal">Barisal</option>
+            </select>
+            </div>
+            <div class="form-group">
+                <label for="course">Course*</label><br>
+                <select name="" id="course" required>
+                <option value="Select" selected disabled>--Select One--</option>
+                <option value="Dhaka">Dhaka</option>
+                <option value="Chittagong">Chittagong</option>
+                <option value="Comilla">Comilla</option>
+                <option value="Rajshahi">Rajshahi</option>
+                <option value="Jessor">Jessor</option>
+                <option value="Khulna">Khulna</option>
+                <option value="Barisal">Barisal</option>
+            </select>
+            </div>
+            <div class="form-group">
+                <label for="student_name">Student Name*</label><br>
+                <input type="text" id="student_name" required style="width: 50%;">
+            </div>
+            <div class="form-group">
+                <label for="father_name">Father Name*</label><br>
+                <input type="text" id="father_name" required style="width: 50%;">
+            </div>
+            <div class="form-group">
+                <label for="mother_name">Mother Name*</label><br>
+                <input type="text" id="mother_name" required style="width: 50%;">
+            </div>
+            <div class="form-group ">
+
+                <label>Date Of Birth*</label><br>
+
+                <div class="day">
+                    <div>
+                        <label for="day">Day</label><br>
+                        <select name="" id="day" required style="width: 100px;">
+                     <option value="select" disabled selected>Select</option>
+                     <option value="1">1</option>
+                     <option value="2">2</option>
+                     <option value="3">3</option>
+                     <option value="4">4</option>
+                     <option value="5">5</option>
+                     <option value="6">6</option>
+                     <option value="7">7</option>
+                     <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>       
+
+                </select>
+                    </div>
+                    <div>
+                        <label for="month">Month</label><br>
+                        <select id="month" required style="width: 100px;">
+                            <option value="select" disabled selected>Select</option>
+                            <option value="January">January</option>
+                            <option value="February">February</option>
+                            <option value="March">March</option>
+                            <option value="April">April</option>
+                            <option value="May">May</option>
+                            <option value="June">June</option>
+                            <option value="July">July</option>
+                            <option value="August">August</option>
+                            <option value="September">September</option>
+                            <option value="October">October</option>
+                            <option value="November">November</option>
+                            <option value="December">December</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="year">Year</label><br>
+                        <select id="year" required style="width: 100px;">
+                            <option value="select" disabled selected>Select</option>
+                            <option value="2025">2025</option>
+                            <option value="2024">2024</option>
+                            <option value="2023">2023</option>
+                            <option value="2022">2022</option>
+                            <option value="2021">2021</option>
+                            <option value="2020">2020</option>
+                            <option value="2019">2019</option>
+                            <option value="2018">2018</option>
+                            <option value="2017">2017</option>
+                            <option value="2016">2016</option>
+
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="gender">Gender*</label>
+                <input type="radio" id="male" name="gender" value="Male">
+                <label for="male"><b>Male</b></label>
+                <input type="radio" id="female" name="gender" value="Female">
+                <label for="female"><b>Female</b></label>
+            </div>
+
+            <div class="form-group">
+                <label for="handicapped">Physically Handicapped*</label>
+                <input type="radio" id="yes" name="handicapped" value="Yes">
+                <label for="yes"><b>Yes</b></label>
+                <input type="radio" id="no" name="handicapped" value="No">
+                <label for="no"><b>No</b></label>
+            </div>
+
+            <div class="form-group">
+                <label for="email">Email*</label><br>
+                <input type="email" name="email" id="email" required style="width: 50%;"><br>
+                <small>(e.g: example@mail.com)</small>
+            </div>
+
+            <div class="form-group">
+                <label for="phone">Phone (Must be 11 digits)*</label><br>
+                <input type="number" name="phone" id="phone" required style="width: 50%;"><br>
+                <small>(e.g: 0155123456)</small>
+            </div>
+        </form>
+
+        <form style="width: 50%;">
+            <div class="form-group">
+                <label for="">Identification Type*</label><br>
+                <select name="" id="">
+                    <option value="">National ID</option>
+                    <option value="">Birth Certificate</option>
+                </select><br>
+                <small>Identification No.(Must be 10 digits for new NID or 17 digits for old NID. If your National ID is 13 digits, then add your birth year with the ID as prefix. Example 01980XXXXXXXX)</small><br>
+                <input type="text" name="" id="" style="width: 50%;">
+            </div>
+            <div class="form-group">
+                <label for="">Home District*</label><br>
+                <select name="" id="">
+                    <option value="" selected disabled>Select One</option>
+                    <option value=""></option>
+                    <option value=""></option>
+                    <option value=""></option>
+                    <option value=""></option>
+                    <option value=""></option>
+                    <option value=""></option>
+                    <option value=""></option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="">Upazila*</label><br>
+                <select name="" id="">
+                    <option value=""selected disabled>Select One</option>
+                    <option value=""></option>
+                    <option value=""></option>
+                    <option value=""></option>
+                    <option value=""></option>
+                    <option value=""></option>
+                    <option value=""></option>
+                    <option value=""></option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="">Village/House No./Road No./Other Alternative*</label><br>
+                <input type="text" style="width: 50%;">
+            </div>
+            <div class="form-group">
+                <label for="">Post Office*</label><br>
+                <input type="text" name="" id="" style="width: 50%;">
+            </div>
+            <div class="form-group">
+                <label>Educational Qualificaton* <small>(Higher Level)</small>
+                </label><br>
+                <select name="" id="">
+                    <option value="" selected disabled>Select One </option>
+                    <option value=""></option>
+                    <option value=""></option>
+                    <option value=""></option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="">Have any computer?*</label>
+                <input type="radio" name="" id="">
+                <label for=""><b>Yes</b></label>
+                <input type="radio" name="" id="">
+                <label for=""><b>No</b></label>
+            </div>
+            <div class="form-group">
+                <label for="">Photograph*</label><br>
+                <input type="file" name="" id=""><br>
+                <small>(File type must be jpg or jpeg or png. Maximum file size 2 mb.)</small>
+            </div>
+            <div class="form-group">
+                <label for="">Signature*</label><br>
+                <input type="file" name="" id=""><br>
+                <small>(File type must be jpg or jpeg or png. Maximum file size 2 mb.)</small>
+            </div>
+            <div class="form-group">
+                <button type="button" onclick="alert('Submit all the information correctly!')" style="width: 150px;">Submit Data</button>
+            </div>
+        </form>
+    </section>
+
+    <footer class="section-container" style="display: flex;justify-content: space-between;">
+        <p>&copy; All right reserved</p>
+        <div class="social">
+            <a target="blank" href='https://www.twitch.tv/daisychaincosplay'><i class="fab fa-twitch"></i></a>
+            <a target="blank" href='https://www.youtube.com/channel/UC-gCUMK_EGUqJ7P9VA7BJmQ'><i class="fab fa-youtube"></i></a>
+            <a target="blank" href='https://twitter.com/codingCommander'><i class="fab fa-twitter"></i></a>
+            <a target="blank" href='https://www.facebook.com/codingcommanders/'><i class='fab fa-facebook'></i></a>
+            <a target="blank" href='https://www.instagram.com/codingcommanders'><i class='fab fa-instagram'></i></a>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+
+</html>

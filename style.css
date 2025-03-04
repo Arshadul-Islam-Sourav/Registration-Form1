@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav span {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav {
+    display: block;
+    background: -webkit-linear-gradient(#9e9d9d #ecebeb);
+    unicode-bidi: isolate;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    margin-top: 8px;
+    gap: 15px;
+    display: flex;
+    border-top: 1px solid #ddd;
+    float: right;
+    margin-right: 20px;
+    margin-bottom: 1rem;
+}
+
+ul {
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+    unicode-bidi: isolate;
+}
+
+nav ul li {
+    cursor: pointer;
+    font-weight: bold;
+    flex-shrink: inherit;
+    padding: 8px 15px;
+    display: inline-block;
+    line-height: 80px;
+    margin: 0px 5px;
+}
+
+nav ul li a {
+    font-size: 17px;
+    text-transform: uppercase;
+    border-radius: 3px;
+    padding: 7px 13px;
+    color: slategray;
+    text-decoration: none;
+}
+
+a.active,
+a:hover {
+    background: #1b9bff;
+    transform: 0.5s;
+}
+
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+    unicode-bidi: isolate;
+}
+
+.section-container {
+    padding: 10px 80px;
+    background-color: #f0f8ff;
+}
+
+section h1 {
+    padding-top: 60px;
+}
+
+section {
+    display: block;
+    unicode-bidi: isolate;
+}
+
+.form-group {
+    margin-bottom: 12px;
+}
+
+section {
+    display: flex;
+}
+
+.day {
+    display: flex;
+}
+
+select {
+    width: 50%;
+}
+
+.social {
+    border-radius: 6px;
+    position: relative;
+    overflow: hidden;
+    padding-bottom: 20px;
+}
+
+.social a {
+    font-size: 20px;
+    color: #1b9bff;
+    border-style: none;
+    border-color: none;
+    padding: 0px;
+    margin: 10px;
+    border-radius: 1px;
+    display: inline-block;
+}
+
+.social a:hover {
+    background-color: #9e9d9d;
+    color: white;
+    -webkit-transition: background-color 0.6s ease-out, color 0.6s ease-out;
+    -moz-transition: background-color 0.6s ease-out, color 0.6s ease-out;
+    -o-transition: background-color 0.6s ease-out, color 0.6s ease-out;
+    transition: background-color 0.6s ease-out, color 0.6s ease-out;
+}
